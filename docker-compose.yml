@@ -1,0 +1,25 @@
+services:
+  nestjs-products:
+    container_name: nestjs-products
+    build: ./products
+    ports:
+      - "3000:3000"
+    depends_on:
+      - database
+
+  nestjs-inventory:
+    container_name: nestjs-inventory
+    build: ./inventory
+    ports:
+      - "3001:3001"
+    depends_on:
+      - database
+
+  database:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: database
+    ports:
+      - "5432:5432"
