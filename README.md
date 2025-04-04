@@ -14,11 +14,11 @@ Crear la variable de entorno en la carpeta de products: API_KEY = "valor_apikey"
 
 ### Productos
 
-Puedes acceder a la documentación (SWAGGER) por medio de la siguiente URL desde un navegador web: [link](localhost:3000/api)
+Puedes acceder a la documentación (SWAGGER) por medio de la siguiente URL desde un navegador web: (localhost:3000/api)
 
 ### Inventario
 
-Puedes acceder a la documentación (SWAGGER) por medio de la siguiente URL desde un navegador web: [link](localhost:3001/api)
+Puedes acceder a la documentación (SWAGGER) por medio de la siguiente URL desde un navegador web: (localhost:3001/api)
 
 ## Autor
 
